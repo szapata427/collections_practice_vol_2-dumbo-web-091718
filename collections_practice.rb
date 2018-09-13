@@ -71,5 +71,7 @@ end
     chicago = []
     
     school_location.each do |school, location|
-      if 
+      if location[:location] == "NYC"
+        nyc << school
+        
 
