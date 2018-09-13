@@ -65,5 +65,11 @@ def find_cool(array)
 end
     
   
-  def organize_schools()
+  def organize_schools(school_location)
+    nyc = []
+    sf = []
+    chicago = []
+    
+    school_location.each do |school, location|
+      if 
 
