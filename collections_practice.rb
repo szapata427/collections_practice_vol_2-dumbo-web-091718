@@ -85,6 +85,7 @@ end
         organized_schools[location[:location]] = chicago
       end
     end
+    organized_schools
   end
         
 
