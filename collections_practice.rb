@@ -56,10 +56,10 @@ def merge_data(hash, data)
 end
 
 def find_cool(array)
-  cooltemp = []
+  
   array.select do |thing|
     if thing[:temperature] == "cool"
-      item
+      thing
     end
   end
 end
