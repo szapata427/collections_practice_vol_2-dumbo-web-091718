@@ -66,6 +66,7 @@ end
     
   
   def organize_schools(school_location)
+    organized_schools = {}
     nyc = []
     sf = []
     chicago = []
