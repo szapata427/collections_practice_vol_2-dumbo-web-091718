@@ -74,5 +74,7 @@ end
     school_location.each do |school, location|
       if location[:location] == "NYC"
         nyc << school
+        organized_schools[location[:NYC]] = nyc
+      end
         
 
